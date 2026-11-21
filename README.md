@@ -24,3 +24,4 @@ source credits retained. No private draft or access key belongs in this reposito
 
 Keep this repository public and configure GitHub Pages to deploy `main / (root)`.
 Never copy private SWGOH or accounting snapshots into this repository.
+The review desk keeps its owner key in memory only; Lock clears it from the page.
