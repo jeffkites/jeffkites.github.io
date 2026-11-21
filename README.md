@@ -11,5 +11,10 @@ address. Copy the four generated wind assets here when changing the map.
 Live readings refresh directly from the existing read-only Cloudflare service;
 GitHub Pages needs no server, credentials or scheduled data rebuild.
 
+Wind and kiting-site maps have separate Lake Mac/Newcastle, Nelson Bay and
+Central Coast views. Eighteen numbered site pins open credited reviews.
+The Nelson Bay pins link to Jordan Jensen's original article. Place references
+come from OpenStreetMap (ODbL 1.0) and identify review areas rather than launches.
+
 Keep this repository public and configure GitHub Pages to deploy `main / (root)`.
 Never copy private SWGOH or accounting snapshots into this repository.
