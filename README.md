@@ -11,8 +11,8 @@ address. Copy the four generated wind assets here when changing the map.
 Live readings refresh directly from the existing read-only Cloudflare service;
 GitHub Pages needs no server, credentials or scheduled data rebuild.
 
-Wind and kiting-site maps have separate Lake Mac/Newcastle, Nelson Bay and
-Central Coast views. Nineteen numbered site pins open credited guides or the Mawsons Wall / Spoons
+The wind map shows all seven coastal gauges together. Site-review maps have
+separate Lake Mac/Newcastle, Nelson Bay and Central Coast views. Nineteen numbered site pins open credited guides or the Mawsons Wall / Spoons
 nomination awaiting local review. Squids / Squid’s Ink is searchable by its aliases.
 The Nelson Bay pins link to Jordan Jensen's original article. Place references
 come from OpenStreetMap (ODbL 1.0) and GeoNames (Spoon Rocks, CC BY 4.0)
