@@ -195,7 +195,7 @@ function guideAuthor(guide){const source=guideSource(guide);return guide.sourceI
 function visibleSpotGuides(){return spotGuides.filter(g=>(reviewQuery?matchesReviewQuery(g):spotLocations.some(p=>p.guideId===g.id&&p.region===region)&&(guideFilter==='all'||(guideFilter==='detailed'?g.sourceId!=='source-2011':g.sourceId==='source-2011')))&&matchesSiteWind(g,windDirection));}
 function renderSpotCards(){
  const visible=visibleSpotGuides();
- $('spot-search-status').textContent=windDirection?visible.length+' site'+(visible.length===1?'':'s')+' list '+windDirection+(reviewQuery?' across all areas.':' in '+currentRegion().label+'.'):reviewQuery?visible.length+' results across all areas. Open a review to select its area.':'';
+ $('spot-search-status').textContent=windDirection?visible.length+' site'+(visible.length===1?' lists ':'s list ')+windDirection+(reviewQuery?' across all areas.':' in '+currentRegion().label+'.'):reviewQuery?visible.length+' results across all areas. Open a review to select its area.':'';
  $('spot-grid').innerHTML=visible.length?visible.map(g=>{
   const reviewed=g.ownerReview,label=reviewed?'Jeff’s reviewed notes':g.nomination?'Awaiting local review':g.externalReview?'Original site review':g.sourceId==='source-2011'?'2011 community direction notes':g.water;
   const wind=reviewed?(reviewed.wind||'Wind directions not confirmed'):g.nomination?'Wind and launch not yet reviewed':g.externalReview?'Read Jordan’s review':g.wind;
