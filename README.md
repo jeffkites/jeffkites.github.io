@@ -12,9 +12,15 @@ Live readings refresh directly from the existing read-only Cloudflare service;
 GitHub Pages needs no server, credentials or scheduled data rebuild.
 
 Wind and kiting-site maps have separate Lake Mac/Newcastle, Nelson Bay and
-Central Coast views. Eighteen numbered site pins open credited reviews.
+Central Coast views. Nineteen numbered site pins open credited guides or the Mawsons Wall / Spoons
+nomination awaiting local review. Squids / Squid’s Ink is searchable by its aliases.
 The Nelson Bay pins link to Jordan Jensen's original article. Place references
-come from OpenStreetMap (ODbL 1.0) and identify review areas rather than launches.
+come from OpenStreetMap (ODbL 1.0) and GeoNames (Spoon Rocks, CC BY 4.0)
+and identify areas rather than verified launches.
+
+The owner review desk at /wind/#review-desk uses the existing dashboard key.
+Drafts stay private; Approve & publish makes your edited notes public with
+source credits retained. No private draft or access key belongs in this repository.
 
 Keep this repository public and configure GitHub Pages to deploy `main / (root)`.
 Never copy private SWGOH or accounting snapshots into this repository.
