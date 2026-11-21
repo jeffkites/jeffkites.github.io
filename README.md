@@ -28,4 +28,6 @@ The review desk keeps its owner key in memory only; Lock clears it from the page
 
 Wind arrows, map markers and gauge cards share speed changeovers at 12, 16 and
 30 knots (red/yellow/green/brown). Recent speed trends compare timed average
-wind readings; gusts remain a separate dashed history series.
+wind readings. Each wind-station row now has a slim average/gust arrow history;
+gust arrows are translucent grey. The shared range defaults to six hours.
+The separate large history panel has been removed.
